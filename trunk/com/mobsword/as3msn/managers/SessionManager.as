@@ -30,16 +30,10 @@ package com.mobsword.as3msn.managers
 			case Command.XFR:
 				onXFR(event.data);
 				break;
+			case Command.RNG:
+				onRNG(event.data);
+				break;
 			}
-			//switch(event.data.command)
-			//{
-			//case Command.RESS:
-				//onRESS(event.data);
-				//break;
-			//case Command.CTOC:
-				//onCTOC(event.data);
-				//break;
-			//}
 		}
 		
 		private function onXFR(m:Message):void
@@ -57,8 +51,9 @@ package com.mobsword.as3msn.managers
 				sd.account			= account;
 				sd.host				= host;
 				sd.port				= port;
-				sd.id				= auth_key;
+				sd.auth				= auth_key;
 				var s:Session		= new Session(sd);
+				s.broadcast(new RadioEvent(RadioEvent.RESERVE_DATA, account.mm.genSBUSR(s)));
 				all[sd.id]			= s;
 				
 				/*
@@ -70,50 +65,16 @@ package com.mobsword.as3msn.managers
 			}
 		}
 		
-		private function onRESS(m:Message):void
+		private function onRNG(m:Message):void
 		{
-			var sd:SessionData = new SessionData();
-			sd.account	= account;
-			sd.host		= m.param[0] as String;
-			sd.port		= parseInt(m.param[1] as String);
-			sd.id		= m.param[2] as String;
-			var s:Session = new Session(sd);
-			
-			all[sd.id]	= s;
-			/*
-			*	dispatch Event for external Interface
-			*/
-			var se:SessionEvent = new SessionEvent(SessionEvent.NEW_SESSION);
-			se.session = s;
-			account.dispatchEvent(se);
-		}
-		
-		private function onCTOC(m:Message):void
-		{
-			//var param:Array = m.data.split(' ');
-			//var cmd:String	= param[0] as String;
-			//if (cmd != Command.INVT)
-				//return;
-			//var from:String	= param[1] as String;
-			//var host:String = param[2] as String;
-			//var port:int	= parseInt(param[3] as String);
-			//var id:String	= param[4] as String;
-			//
-			//var sd:SessionData = new SessionData();
-			//sd.account		= account;
-			//sd.host			= host;
-			//sd.port			= port;
-			//sd.id			= id;
-			//var s:Session	= new Session(account, sd);
-			//
-			//all[sd.id]		= s;
-			///**
-			 //* dispatch Event for external Interface
-			 //*/
-			//var se:SessionEvent = new SessionEvent(SessionEvent.INVITE_SESSION);
-			//se.friend = account.fm.getFriendByEmail(from);
-			//se.session = s;
-			//account.dispatchEvent(se);
+			var id:String = m.param[0] as String;
+			var ary:Array = (m.param[1] as String).split(':');
+			var host:String = ary[0] as String;
+			var port:int = parseInt(ary[1] as String);
+			var auth_type:String = m.param[2] as String;
+			var auth_key:String = m.param[3] as String;
+			var email:String = m.param[4] as String;
+			var nick:String = m.param[5] as String;
 		}
 	}
 	

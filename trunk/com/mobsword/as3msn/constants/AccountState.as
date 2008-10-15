@@ -1,4 +1,4 @@
-package com.mobsword.ac3msn.constants
+package com.mobsword.as3msn.constants
 {
 	
 	/**

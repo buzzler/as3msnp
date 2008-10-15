@@ -63,7 +63,7 @@ package com.mobsword.as3msn.managers
 			a.email	= m.param[2] as String;
 			a.nick	= Codec.decode(m.param[3] as String);
 			a.name	= Codec.decode(m.param[4] as String);
-			a.friend= session.account.fm.getFriendByEmail(a.email);
+			a.friend= session.data.account.fm.getFriendByEmail(a.email);
 			
 			attendies.push(a);
 			all[a.email] = a;
@@ -122,7 +122,7 @@ package com.mobsword.as3msn.managers
 			a.email	= m.param[0] as String;
 			a.nick	= Codec.decode(m.param[1] as String);
 			a.name	= Codec.decode(m.param[2] as String);
-			a.friend= session.account.fm.getFriendByEmail(a.email);
+			a.friend= session.data.account.fm.getFriendByEmail(a.email);
 			
 			attendies.push(a);
 			all[a.email] = a;
