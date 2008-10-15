@@ -30,6 +30,7 @@ package com.mobsword.as3msn.comm
 			m.rid = rid++;
 			socket.writeMultiByte(m.toString(), 'UTF-8');
 			socket.flush();
+			trace(m.toConsole());
 		}
 	}
 }

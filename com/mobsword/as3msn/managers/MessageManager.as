@@ -498,9 +498,13 @@ package com.mobsword.as3msn.managers
 		 * Log in to switchboard chat session after requesting session from NS
 		 * @return
 		 */
-		public	function genSBUSR():Message
+		public	function genSBUSR(session:Session):Message
 		{
-			return null;
+			var m:Message = new Message();
+			m.command = Command.USR;
+			m.isText = true;
+			m.param = [account.data.email, session.data.auth];
+			return m;
 		}
 		
 		/**

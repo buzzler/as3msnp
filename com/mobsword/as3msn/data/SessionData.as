@@ -9,11 +9,12 @@ package com.mobsword.as3msn.data
 	*/
 	public class SessionData
 	{
-		public	var account:Account;	//����� ��d
-		public	var id:String;			//���� ��/��
-		public	var host:String;		//���� ������
-		public	var port:int;			//���� ��Ʈ��ȣ
-		public	var friends:Array;		//���ڵ�
+		public	var account:Account;
+		public	var id:String;
+		public	var	auth:String;
+		public	var host:String;
+		public	var port:int;
+		public	var friends:Array;
 		
 		public	function SessionData():void
 		{

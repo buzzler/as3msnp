@@ -45,14 +45,6 @@ package com.mobsword.as3msn.comm
 		
 		override public function open(host:String, port:int):void
 		{
-			//if (queue.length < 1)
-			//{
-				//reserve(account.mm.genPVER());
-				//reserve(account.mm.genAUTH());
-				//reserve(account.mm.genREQS());
-				//machine.reserve(Command.LSIN, account.mm.genLIST());
-			//}
-			
 			switch (server)
 			{
 			case ServerType.DISPATCH_SERVER:
@@ -90,21 +82,6 @@ package com.mobsword.as3msn.comm
 		
 		private function onIncoming(event:RadioEvent):void
 		{
-			//switch(event.data.command)
-			//{
-			//case Command.PVER:
-				//break;
-			//case Command.AUTH:
-				//break;
-			//case Command.REQS:
-				//onREQS(event.data);
-				//break;
-			//case Command.PING:
-				//onPING(event.data);
-				//break;
-			//case Command.KILL:
-				//break;
-			//}
 			switch (event.data.command)
 			{
 			case Command.XFR:

@@ -15,6 +15,7 @@
 	 */
 	[Event(name = "INCOMING_DATA", 	type = "com.mobsword.as3msn.events.RadioEvent")]
 	[Event(name = "OUTGOING_DATA", 	type = "com.mobsword.as3msn.events.RadioEvent")]
+	[Event(name = "RESERVE_DATA", 	type = "com.mobsword.as3msn.events.RadioEvent")]
 	[Event(name = "OPEN_SESSION", 	type = "com.mobsword.as3msn.events.SessionEvent")]
 	[Event(name = "CLOSE_SESSION",	type = "com.mobsword.as3msn.events.SessionEvent")]
 	[Event(name = "JOIN_SESSION", 	type = "com.mobsword.as3msn.events.SessionEvent")]
@@ -25,7 +26,6 @@
 	[Event(name = "SENT",			type = "com.mobsword.as3msn.events.MessageEvent")]
 	public class Session extends EventDispatcher
 	{
-		public	var account	:Account;
 		public	var data	:SessionData;
 		public	var conn	:SessionConnector;
 		public	var am		:AttendentManager;
@@ -54,7 +54,7 @@
 		 */
 		public	function online():void
 		{
-			//conn.open(data.host, data.port);
+			conn.open(data.host, data.port);
 		}
 		
 		/**
@@ -62,7 +62,7 @@
 		 */
 		public	function offline():void
 		{
-			//conn.close();
+			conn.close();
 		}
 
 		/**

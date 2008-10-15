@@ -1,6 +1,6 @@
-package com.mobsword.ac3msn.events
+package com.mobsword.as3msn.events
 {
-	import com.mobsword.ac3msn.objects.Account;
+	import com.mobsword.as3msn.objects.Account;
 	
 	import flash.events.Event;
 

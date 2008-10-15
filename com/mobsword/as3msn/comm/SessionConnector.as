@@ -22,6 +22,7 @@ package com.mobsword.as3msn.comm
 		
 		public function SessionConnector(ss:Session)
 		{
+			super();
 			constructor(ss);
 			listener();
 		}
@@ -37,14 +38,20 @@ package com.mobsword.as3msn.comm
 		
 		private function listener():void
 		{
-			socket.addEventListener(Event.CONNECT,	onOpen);
-			socket.addEventListener(Event.CLOSE,	onClose);
+			session.addEventListener(RadioEvent.RESERVE_DATA,	onReserve);
+			socket.addEventListener(Event.CONNECT,				onOpen);
+			socket.addEventListener(Event.CLOSE,				onClose);
 		}
 		
 		override public function open(host:String, port:int):void
 		{
-			//reserve(session.account.mm.genENTR(session.data.id));
+			//reserve(session.data.account.mm.genSBUSR(session));
 			super.open(host, port);
+		}
+		
+		private function onReserve(event:RadioEvent):void
+		{
+			reserve(event.data);
 		}
 		
 		private function onOpen(event:Event):void
@@ -62,9 +69,9 @@ package com.mobsword.as3msn.comm
 			/*
 			*	dispatch Event for external Interface
 			*/
-/* 			var se:SessionEvent = new SessionEvent(SessionEvent.OPEN_SESSION);
+			var se:SessionEvent = new SessionEvent(SessionEvent.OPEN_SESSION);
 			se.session = session;
-			session.dispatchEvent(se); */
+			session.dispatchEvent(se);
 		}
 		
 		private function onClose(event:Event):void
@@ -75,9 +82,9 @@ package com.mobsword.as3msn.comm
 			/*
 			*	dispatch Event for external Interface
 			*/
-/* 			var se:SessionEvent = new SessionEvent(SessionEvent.CLOSE_SESSION);
+			var se:SessionEvent = new SessionEvent(SessionEvent.CLOSE_SESSION);
 			se.session = session;
-			session.dispatchEvent(se); */
+			session.dispatchEvent(se);
 		}
 	}
 	
