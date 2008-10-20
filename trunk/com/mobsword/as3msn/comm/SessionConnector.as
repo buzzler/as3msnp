@@ -1,5 +1,6 @@
 package com.mobsword.as3msn.comm
 {
+	import com.mobsword.as3msn.constants.Command;
 	import com.mobsword.as3msn.constants.ServerType;
 	import com.mobsword.as3msn.data.Message;
 	import com.mobsword.as3msn.events.RadioEvent;
@@ -38,15 +39,23 @@ package com.mobsword.as3msn.comm
 		
 		private function listener():void
 		{
+			session.addEventListener(RadioEvent.INCOMING_DATA,	onIncoming);
 			session.addEventListener(RadioEvent.RESERVE_DATA,	onReserve);
 			socket.addEventListener(Event.CONNECT,				onOpen);
 			socket.addEventListener(Event.CLOSE,				onClose);
 		}
 		
-		override public function open(host:String, port:int):void
+		private function onIncoming(event:RadioEvent):void
 		{
-			//reserve(session.data.account.mm.genSBUSR(session));
-			super.open(host, port);
+			switch (event.data.command)
+			{
+			case Command.USR:
+			case Command.ANS:
+				var se:SessionEvent = new SessionEvent(SessionEvent.OPEN_SESSION);
+				se.session = session;
+				session.dispatchEvent(se);
+				break;
+			}
 		}
 		
 		private function onReserve(event:RadioEvent):void
@@ -65,13 +74,6 @@ package com.mobsword.as3msn.comm
 				writer.sendData(c);
 			}
 			queue.length = 0;
-
-			/*
-			*	dispatch Event for external Interface
-			*/
-			var se:SessionEvent = new SessionEvent(SessionEvent.OPEN_SESSION);
-			se.session = session;
-			session.dispatchEvent(se);
 		}
 		
 		private function onClose(event:Event):void

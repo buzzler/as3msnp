@@ -8,6 +8,7 @@ package com.mobsword.as3msn.comm
 	import flash.events.Event;
 	import flash.events.TimerEvent;
 	import flash.net.Socket;
+	import flash.utils.ByteArray;
 	import flash.utils.Timer;
 	
 	public class SessionReader
@@ -22,7 +23,7 @@ package com.mobsword.as3msn.comm
 			socket	= s;
 			session	= ss;
 			buffer	= '';
-			timer	= new Timer(500);
+			timer	= new Timer(50);
 			timer.addEventListener(TimerEvent.TIMER, onTimer);
 			timer.start();
 		}
@@ -30,31 +31,6 @@ package com.mobsword.as3msn.comm
 		public	function onData(event:Event):void
 		{
 			buffer += socket.readMultiByte(socket.bytesAvailable, 'UTF-8');
-			//if (buffer.length < 1)
-				//return;
-			//if (buffer.indexOf('\r\n') < 0)
-				//return;
-			//var cmd:String;
-			//while (buffer.length > 0)
-			//{
-				//cmd = buffer.substr(0, 4);
-				//switch(cmd)
-				//{
-				//case Command.WHSP:
-				//case Command.MESG:
-					//onEmbed();
-					//break;
-				//case Command.ENTR:
-				//case Command.JOIN:
-				//case Command.USER:
-				//case Command.QUIT:
-					//onMessage();
-					//break;
-				//default:
-					//onMessage();
-					//break;
-				//}
-			//}
 		}
 		
 		private function onTimer(event:TimerEvent):void
@@ -86,19 +62,27 @@ package com.mobsword.as3msn.comm
 			}
 		}
 		
-		/**
-		 * RNG 커맨드를 rid 때문에 잘못가져오고있다 수정필요!!
-		 */
 		private function getMessage():Message
 		{
+			var i:int = 0;
 			var ary:Array = buffer.substr(0, buffer.indexOf('\r\n')).split(' ');
 			var m:Message = new Message();
-			if (ary.length > 0)
-				m.command	= ary[0] as String;
-			if (ary.length > 1)
-				m.rid		= parseInt(ary[1] as String);
-			if (ary.length > 2)
-				m.param		= ary.slice(2);
+			
+			m.command	= ary[i++] as String;
+			switch (m.command)
+			{
+			case Command.USR:
+			case Command.ANS:
+			case Command.CAL:
+				m.rid = parseInt(ary[i++] as String);
+				break;
+			case Command.JOI:
+			case Command.BYE:
+			case Command.MSG:
+				m.rid = 0;
+				break;
+			}
+			m.param = ary.slice(i++);
 			return m;
 		}
 		
@@ -107,14 +91,6 @@ package com.mobsword.as3msn.comm
 			var i:int = buffer.indexOf('\r\n') + 2;
 			buffer = buffer.substr(i);
 			buffer = buffer.substr(length);
-		}
-		
-		private function onEmbed():void
-		{
-			var m:Message	= getMessage();
-			m.isEmbed		= true;
-			session.broadcast(new RadioEvent(RadioEvent.INCOMING_DATA, m));
-			flushMessage();
 		}
 		
 		private function onMessage():void
@@ -131,12 +107,16 @@ package com.mobsword.as3msn.comm
 			var m:Message	= getMessage();
 			var start:int	= buffer.indexOf('\r\n') + 2;
 			var length:int	= parseInt(m.param[m.param.length - 1] as String);
-			if (buffer.length < (start + length))
-				return;
-			m.data			= buffer.substr(start, length);
+
+			var ba:ByteArray = new ByteArray();
+			var temp:String = buffer.substr(start);
+			ba.writeMultiByte(temp, 'utf-8');
+			ba.position = 0;
+
+			m.data			= ba.readMultiByte(length, 'utf-8');
 			m.isBinary		= true;
 			session.broadcast(new RadioEvent(RadioEvent.INCOMING_DATA, m));
-			flushMessage(length);
+			flushMessage(m.data.length);
 			trace(m.toConsole());
 		}
 	}

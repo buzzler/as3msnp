@@ -5,8 +5,8 @@ package com.mobsword.as3msn.managers
 	import com.mobsword.as3msn.events.RadioEvent;
 	import com.mobsword.as3msn.events.SessionEvent;
 	import com.mobsword.as3msn.objects.Attendent;
+	import com.mobsword.as3msn.objects.Friend;
 	import com.mobsword.as3msn.objects.Session;
-	import com.mobsword.as3msn.utils.Codec;
 	
 	public class AttendentManager
 	{
@@ -25,45 +25,36 @@ package com.mobsword.as3msn.managers
 			session.addEventListener(RadioEvent.INCOMING_DATA, onIncoming);
 		}
 
+		public	function getAttendentByEmail(email:String):Attendent
+		{
+			return all[email] as Attendent;
+		}
+
 		private function onIncoming(event:RadioEvent):void
 		{
-			//switch (event.data.command)
-			//{
-			//case Command.ENTR:
-				//onENTR(event.data);
-				//break;
-			//case Command.USER:
-				//onUSER(event.data);
-				//break;
-			//case Command.QUIT:
-				//onQUIT(event.data);
-				//break;
-			//case Command.JOIN:
-				//onJOIN(event.data);
-				//break;
-			//case Command.WHSP:
-				//onWHSP(event.data);
-				//break;
-			//}
+			switch (event.data.command)
+			{
+			case Command.IRO:
+				onIRO(event.data);
+				break;
+			case Command.CAL:
+				onCAL(event.data);
+				break;
+			case Command.JOI:
+				onJOI(event.data);
+				break;
+			case Command.BYE:
+				onBYE(event.data);
+				break;
+			}
 		}
 		
-		private function onENTR(m:Message):void
-		{
-			/*
-			*	dispatch Event for external Interface
-			*/
-			var se:SessionEvent = new SessionEvent(SessionEvent.OPEN_SESSION);
-			se.session = session;
-			session.dispatchEvent(se);
-		}
-		
-		private function onUSER(m:Message):void
+		private function onIRO(m:Message):void
 		{
 			var a:Attendent = new Attendent();
-			a.email	= m.param[2] as String;
-			a.nick	= Codec.decode(m.param[3] as String);
-			a.name	= Codec.decode(m.param[4] as String);
-			a.friend= session.data.account.fm.getFriendByEmail(a.email);
+			a.email = m.param[2] as String;
+			a.nick = unescape(m.param[3] as String);
+			a.friend = session.data.account.fm.getFriendByEmail(a.email);
 			
 			attendies.push(a);
 			all[a.email] = a;
@@ -79,50 +70,26 @@ package com.mobsword.as3msn.managers
 			session.dispatchEvent(se);
 		}
 		
-		private function onQUIT(m:Message):void
+		private function onCAL(m:Message):void
 		{
-			var se:SessionEvent;
-			if (m.rid == 0)		//quit attendent
-			{
-				var email:String = m.param[0] as String;
-				var a:Attendent = all[email] as Attendent;
-				if (a == null)
-					return
-				attendies.splice(attendies.indexOf(a),1);
-				all[email] = null;
-				numAttendies--;
-				
-				/*
-				*	dispatch Event for external Interface
-				*/
-				se = new SessionEvent(SessionEvent.QUIT_SESSION);
-				se.attendent	= a;
-				se.friend		= a.friend;
-				se.session		= session;
-				session.dispatchEvent(se);
-			}
-			else				//quit self
-			{
-				attendies.length = 0;
-				all = new Object();
-				numAttendies = 0;
-				
-				/*
-				*	dispatch Event for external Interface
-				*/
-				se = new SessionEvent(SessionEvent.CLOSE_SESSION);
-				se.session = session;
-				session.dispatchEvent(se);
-			}
+			var temp:Message = session.AOD(m.rid.toString()).data;
+			var id:String = m.param[1] as String;
+			var email:String = temp.param[0] as String;
+			var friend:Friend = session.data.account.fm.getFriendByEmail(email);
+			var se:SessionEvent = new SessionEvent(SessionEvent.INVITE_SESSION);
+			se.email = email;
+			se.friend = friend;
+			session.dispatchEvent(se);
 		}
 		
-		private function onJOIN(m:Message):void
+		private function onJOI(m:Message):void
 		{
+			var email:String = m.param[0] as String;
+			var nick:String = unescape(m.param[1] as String);
 			var a:Attendent = new Attendent();
-			a.email	= m.param[0] as String;
-			a.nick	= Codec.decode(m.param[1] as String);
-			a.name	= Codec.decode(m.param[2] as String);
-			a.friend= session.data.account.fm.getFriendByEmail(a.email);
+			a.email = email;
+			a.nick = nick;
+			a.friend = session.data.account.fm.getFriendByEmail(email);
 			
 			attendies.push(a);
 			all[a.email] = a;
@@ -138,27 +105,41 @@ package com.mobsword.as3msn.managers
 			session.dispatchEvent(se);
 		}
 		
-		private function onWHSP(m:Message):void
+		private function onBYE(m:Message):void
 		{
-			//var email:String= m.param[0] as String;
-			//var cmd:String	= m.param[1] as String;
-			//var data:String	= m.param[2] as String;
-			//var a:Attendent = all[email] as Attendent;
-			//if (a != null)
-			//{
-				//switch (cmd)
-				//{
-				//case Command.AVCHAT2:
-					//a.avchat = data;
-					//break;
-				//case Command.FONT:
-					//a.font = data;
-					//break;
-				//case Command.DPIMG:
-					//a.dpimg = data;
-					//break;
-				//}
-			//}
+			var se:SessionEvent;
+			var email:String = m.param[0] as String;
+			var a:Attendent = all[email] as Attendent;
+			var idle:Boolean = (m.param.length > 1) ? true : false;
+			
+			if (a)
+			{
+				attendies.splice(attendies.indexOf(a),1);
+				all[email] = null;
+				numAttendies--;
+			}
+			
+			/*
+			*	dispatch Event for external Interface
+			*/			
+			if (idle)
+			{
+				se = new SessionEvent(SessionEvent.IDLE_SESSION);
+				se.session = session;
+				se.attendent = a;
+				se.email = email;
+				se.friend = (a) ? a.friend : null;
+				session.dispatchEvent(se);
+			}
+			else
+			{
+				se = new SessionEvent(SessionEvent.QUIT_SESSION);
+				se.session = session;
+				se.attendent = a;
+				se.email = email;
+				se.friend = (a) ? a.friend : null;
+				session.dispatchEvent(se);
+			}
 		}
 	}
 }

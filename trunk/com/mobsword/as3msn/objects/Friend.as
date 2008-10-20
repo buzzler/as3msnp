@@ -37,7 +37,7 @@ package com.mobsword.as3msn.objects
 		 */
 		public	function invite(s:Session):void
 		{
-			s.broadcast(new RadioEvent(RadioEvent.OUTGOING_DATA, data.account.mm.genSBCAL(this)));
+			s.broadcast(new RadioEvent(RadioEvent.OUTGOING_DATA, data.account.mm.genSBCAL(this)), true);
 		}
 
 		/**

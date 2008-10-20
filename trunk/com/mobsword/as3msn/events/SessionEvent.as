@@ -13,10 +13,12 @@ package com.mobsword.as3msn.events
 		public	static const OPEN_SESSION	:String = 's_openSession';
 		public	static const CLOSE_SESSION	:String = 's_closeSession';
 		public	static const JOIN_SESSION	:String = 's_joinSession';
+		public	static const IDLE_SESSION	:String = 's_idleSession';
 		public	static const QUIT_SESSION	:String = 's_quitSession';
 		public	static const USER_SESSION	:String = 's_userSession';
 		
 		public	var session		:Session;
+		public	var email		:String;
 		public	var friend		:Friend;
 		public	var attendent	:Attendent;
 		
