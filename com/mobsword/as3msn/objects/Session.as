@@ -81,16 +81,16 @@
 		
 		public	function broadcast(event:RadioEvent, record:Boolean = false):void
 		{
-			//dispatchEvent(event);
-			//if (record)
-				//history[event.data.rid.toString()] = event;
+			dispatchEvent(event);
+			if (record)
+				history[event.data.rid.toString()] = event;
 		}
 		
-		public	function AOD(id:String, flush:Boolean = true):RadioEvent
+		public	function AOD(rid:String, flush:Boolean = true):RadioEvent
 		{
-			var e:RadioEvent = history[id] as RadioEvent;
+			var e:RadioEvent = history[rid] as RadioEvent;
 			if (flush)
-				history[id] = null;
+				history[rid] = null;
 			return e;
 		}
 	}

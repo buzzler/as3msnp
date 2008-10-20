@@ -1,11 +1,11 @@
 package com.mobsword.as3msn.managers
 {
 	import com.mobsword.as3msn.constants.Command;
+	import com.mobsword.as3msn.constants.MessageType;
 	import com.mobsword.as3msn.data.Message;
 	import com.mobsword.as3msn.events.MessageEvent;
 	import com.mobsword.as3msn.events.RadioEvent;
 	import com.mobsword.as3msn.objects.Session;
-	import com.mobsword.as3msn.utils.Codec;
 	
 	public class ConversationManager
 	{
@@ -18,9 +18,40 @@ package com.mobsword.as3msn.managers
 			session.addEventListener(RadioEvent.INCOMING_DATA, onIncoming);
 			session.addEventListener(RadioEvent.OUTGOING_DATA, onOutgoing);
 		}
-
+		
 		private function onIncoming(event:RadioEvent):void
 		{
+			switch (event.data.command)
+			{
+			case Command.MSG:
+				onMSG(event.data);
+				break;
+			}
+		}
+
+		private function onMSG(m:Message):void
+		{
+			 var center:int		= m.data.indexOf('\r\n\r\n');
+			 var header:Object	= new Object();
+			 var headers:Array	= m.data.substring(0, center).split('\r\n');
+			 var body:String	= m.data.substring(center+4);
+			 
+			 var temp:Array;
+			 for each (var str:String in headers)
+			 {
+			 	temp = str.split(': ');
+			 	header[(temp[0] as String)] = (temp[1] as String).split('; ');
+			 }
+			 
+			 switch (header['Content-Type'][0])
+			 {
+			 case MessageType.PLAIN:	//Plaintext messages, also known as instant messages, are the regular messages sent between principals on MSN
+			 	break;
+			 case MessageType.TYPING:	//A typing notification is sent to inform the other participants in a switchboard session that you are currently typing a message
+			 	break;
+			 case MessageType.INVITE:	//Application invitations are used to invite principals to join applications such as file transfer, voice conversation, video conferencing, NetMeeting, remote assistance, whiteboard, games, and more
+			 	break;
+			 }
 			//var me:MessageEvent;
 			///**
 			 //* The Message I sent

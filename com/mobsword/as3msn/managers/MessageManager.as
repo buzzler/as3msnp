@@ -533,9 +533,14 @@ package com.mobsword.as3msn.managers
 		 * Used to send and receive messages in the chat session
 		 * @return
 		 */
-		public	function genSBMSG():Message
+		public	function genSBMSG(type:String, ack:String, msg:String = ''):Message
 		{
-			return null;
+			var m:Message = new Message();
+			m.command = Command.MSG;
+			m.isBinary = true;
+			m.param = [ack];
+			m.data = msg;
+			return m;
 		}
 		
 		/**
@@ -553,7 +558,10 @@ package com.mobsword.as3msn.managers
 		 */
 		public	function genSBOUT():Message
 		{
-			return null;
+			var m:Message = new Message()
+			m.command = Command.OUT;
+			m.isEmbed = true;
+			return m;
 		}
 		
 /*		

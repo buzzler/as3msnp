@@ -55,6 +55,8 @@
 		public	static const JOI	:String = 'JOI';
 //		public	static const MSG	:String = 'MSG';
 		public	static const BYE	:String = 'BYE';
+		public	static const ACK	:String = 'ACK';
+		public	static const NAK	:String = 'NAK';
 //		public	static const OUT	:String = 'OUT';
 		
 		///**

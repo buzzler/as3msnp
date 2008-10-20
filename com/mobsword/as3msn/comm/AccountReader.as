@@ -8,6 +8,7 @@ package com.mobsword.as3msn.comm
 	import flash.events.ProgressEvent;
 	import flash.events.TimerEvent;
 	import flash.net.Socket;
+	import flash.utils.ByteArray;
 	import flash.utils.Timer;
 	/**
 	* ...
@@ -111,12 +112,17 @@ package com.mobsword.as3msn.comm
 			var m:Message	= getMessage();
 			var start:int	= buffer.indexOf('\r\n') + 2;
 			var length:int	= parseInt(m.param[m.param.length - 1] as String);
-			if (buffer.length < (start + length))
-				return;
-			m.data			= buffer.substr(start, length);
+			
+			
+			var ba:ByteArray = new ByteArray();
+			var temp:String = buffer.substr(start);
+			ba.writeMultiByte(temp, 'utf-8');
+			ba.position = 0;
+
+			m.data			= ba.readMultiByte(length, 'utf-8');
 			m.isBinary		= true;
 			radio.broadcast(new RadioEvent(RadioEvent.INCOMING_DATA, m));
-			flushMessage(length);
+			flushMessage(m.data.length);
 			trace(m.toConsole());
 		}
 	}

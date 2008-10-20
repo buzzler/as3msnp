@@ -14,6 +14,8 @@ package com.mobsword.as3msn.data
 		public	var	auth:String;
 		public	var host:String;
 		public	var port:int;
+		public	var fromEmail:String;
+		public	var fromNick:String;
 		public	var friends:Array;
 		
 		public	function SessionData():void
