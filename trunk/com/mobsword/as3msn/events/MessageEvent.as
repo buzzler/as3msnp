@@ -1,6 +1,7 @@
 package com.mobsword.as3msn.events
 {
 	import com.mobsword.as3msn.data.MessageFormat;
+	import com.mobsword.as3msn.objects.Attendent;
 	import com.mobsword.as3msn.objects.Friend;
 	import com.mobsword.as3msn.objects.Session;
 	
@@ -14,8 +15,9 @@ package com.mobsword.as3msn.events
 		public	static const MISS	:String = 'm_miss';
 		
 		public	var session	:Session;
+		public	var email	:String;
 		public	var friend	:Friend;
-		public	var typing	:String;
+		public	var attendent:Attendent;
 		public	var message	:String;
 		public	var format	:MessageFormat;
 		

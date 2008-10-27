@@ -1,7 +1,9 @@
 ﻿package com.mobsword.as3msn.objects
 {
 	import com.mobsword.as3msn.comm.SessionConnector;
+	import com.mobsword.as3msn.constants.MessageType;
 	import com.mobsword.as3msn.data.Message;
+	import com.mobsword.as3msn.data.MessageFormat;
 	import com.mobsword.as3msn.data.SessionData;
 	import com.mobsword.as3msn.events.RadioEvent;
 	import com.mobsword.as3msn.managers.AttendentManager;
@@ -72,11 +74,38 @@
 		 * @param	color	색상
 		 * @param	type	기울임,굵게
 		 */
-		public	function send(msg:String, font:String = '굴림', color:String = '0', type:String = ''):void
+		public	function send(msg:String, ack:String = MessageType.WITHOUT_ACK,font:String = 'Arial', color:uint = 0, bold:Boolean = false, italic:Boolean = false, charset:String = '81', pith_family:String = '0', right_align:Boolean = false):void
 		{
-			//var embed:Message = data.account.mm.genMSG(msg, font, color, type);
-			//var mesg:Message = data.account.mm.genMESG(embed);
-			//broadcast(new RadioEvent(RadioEvent.OUTGOING_DATA, mesg), true);
+			var format:MessageFormat = new MessageFormat();
+			format.bold = bold;
+			format.charset = charset;
+			format.color = color;
+			format.font_name = font;
+			format.italic = italic;
+			format.pitch_family = pith_family;
+			format.right_align = right_align;
+			var mime:String = '';
+			mime += 'MIME-Version: 1.0\r\n';
+			mime += 'Content-Type: text/plain; charset=UTF-8\r\n';
+			mime += 'X-MMS-IM-Format: ' + format.toString() + '\r\n\r\n';
+			mime += msg;
+			
+			var m:Message = data.account.mm.genSBMSG(ack, mime);
+			if (ack == MessageType.WITHOUT_ACK)
+				broadcast(new RadioEvent(RadioEvent.OUTGOING_DATA, m));
+			else
+				broadcast(new RadioEvent(RadioEvent.OUTGOING_DATA, m), true);
+		}
+		
+		public	function typing():void
+		{
+			var mime:String = '';
+			mime += 'MIME-Version: 1.0\r\n';
+			mime += 'Content-Type: text/x-msmsgscontrol; charset=UTF-8\r\n';
+			mime += 'TypingUser: ' + data.account.data.email + '\r\n\r\n\r\n';
+			
+			var m:Message = data.account.mm.genSBMSG(MessageType.WITHOUT_ACK, mime);
+			broadcast(new RadioEvent(RadioEvent.OUTGOING_DATA, m));
 		}
 		
 		public	function broadcast(event:RadioEvent, record:Boolean = false):void

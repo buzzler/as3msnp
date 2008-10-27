@@ -6,6 +6,8 @@
 
 package com.mobsword.as3msn.data
 {
+	import flash.utils.ByteArray;
+	
 	public class Message
 	{
 		public	var rid		:int;
@@ -91,7 +93,12 @@ package com.mobsword.as3msn.data
 					result = result.concat(param);
 				if (data == null)
 					data = '';
-				result.push(data.length.toString() + '\r\n' + data);
+					
+				var ba:ByteArray = new ByteArray();
+				ba.writeMultiByte(data, 'utf-8');
+				ba.position = 0;
+				var l:String = ba.bytesAvailable.toString();
+				result.push(l + '\r\n' + data);
 				return result.join(' ');
 			}
 			return '';
