@@ -4,6 +4,7 @@ package com.mobsword.as3msn.managers
 	import com.mobsword.as3msn.constants.Info;
 	import com.mobsword.as3msn.constants.ListType;
 	import com.mobsword.as3msn.constants.LocaleType;
+	import com.mobsword.as3msn.constants.MessageType;
 	import com.mobsword.as3msn.data.Message;
 	import com.mobsword.as3msn.objects.Account;
 	import com.mobsword.as3msn.objects.Friend;
@@ -30,7 +31,6 @@ package com.mobsword.as3msn.managers
 			m.command = Command.VER;
 			m.isText = true;
 			m.param = ['MSNP9', 'MSNP8', 'CVR0'];
-			//m.param = ['MSNP11', 'MSNP10', 'CVR0'];
 			return m;
 		}
 		
@@ -533,7 +533,7 @@ package com.mobsword.as3msn.managers
 		 * Used to send and receive messages in the chat session
 		 * @return
 		 */
-		public	function genSBMSG(type:String, ack:String, msg:String = ''):Message
+		public	function genSBMSG(ack:String = MessageType.WITHOUT_ACK, msg:String = ''):Message
 		{
 			var m:Message = new Message();
 			m.command = Command.MSG;

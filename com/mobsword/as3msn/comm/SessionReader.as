@@ -48,6 +48,8 @@ package com.mobsword.as3msn.comm
 				case Command.MSG:
 					onPayload();
 					break;
+				case Command.ACK:
+				case Command.NAK:
 				case Command.ANS:
 				case Command.IRO:
 				case Command.USR:
@@ -74,6 +76,9 @@ package com.mobsword.as3msn.comm
 			case Command.USR:
 			case Command.ANS:
 			case Command.CAL:
+			case Command.IRO:
+			case Command.ACK:
+			case Command.NAK:
 				m.rid = parseInt(ary[i++] as String);
 				break;
 			case Command.JOI:

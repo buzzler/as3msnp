@@ -3,8 +3,7 @@ package com.mobsword.as3msn.data
 	public class MessageFormat
 	{
 		/**
-		 * Font name (URL encoded)
-		 * ex> 'MS%20Sans%20Serif'
+		 * Font name
 		 */
 		public	var	font_name	:String		= 'Arial';
 		
@@ -104,6 +103,34 @@ package com.mobsword.as3msn.data
 		 */
 		public	var right_align	:Boolean	= false;
 		
+		public	static function parseMessageFormat(ary:Array):MessageFormat
+		{
+			var temp:Array;
+			var conf:Object = new Object();
+			for each (var s:String in ary)
+			{
+				temp = s.split('=');
+				conf[(temp[0]) as String] = temp[1] as String;
+			}
+			
+			var result:MessageFormat = new MessageFormat();
+			result.font_name = conf['FN'] as String;
+			result.charset = conf['CS'] as String;
+			result.pitch_family = conf['PF'] as String;
+			result.color = parseInt(conf['CO'] as String, 16);
+			if (conf['EF'])
+			{
+				result.bold = ((conf['EF'] as String).toUpperCase().indexOf('B') >= 0);
+				result.italic = ((conf['EF'] as String).toUpperCase().indexOf('I') >= 0);
+			}
+			if (conf['RL'])
+			{
+				result.right_align = ((conf['RL'] as String) == '1') ? true : false;
+			}
+			
+			return result;
+		}
+		
 		public	function toString():String
 		{
 			var result:Array = new Array();
@@ -117,7 +144,7 @@ package com.mobsword.as3msn.data
 				effect = 'EF=' + effect;
 			
 			if (this.font_name)
-				result.push('FN=' + font_name);
+				result.push('FN=' + escape(font_name));
 			if (effect.length > 1)
 				result.push(effect);
 			if (color)
