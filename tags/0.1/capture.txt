@@ -1,0 +1,71 @@
+No.     Time        Source                Destination           Protocol Info
+      8 0.845273    211.189.147.191       65.54.239.210         MSNMS    VER 1 MSNP11 MSNP10 CVR0
+
+      9 0.991137    65.54.239.210         211.189.147.191       MSNMS    VER 1 MSNP11
+
+     10 0.991785    211.189.147.191       65.54.239.210         MSNMS    CVR 2 0x040c winnt 5.1 i386 MSNMSGR 7.0.0777 msmsgs buvlet@hotmail.com
+
+     12 1.137648    65.54.239.210         211.189.147.191       MSNMS    CVR 2 8.1.0178 8.1.0178 8.1.0178 http://msgruser.dlservice.microsoft.com/download/5/6/4/5646481F-33EF-4B08-AF00-4904F7677B89/FR/Install_WLMessenger.exe http://messenger.msn.com/fr
+
+     13 1.137789    211.189.147.191       65.54.239.210         MSNMS    USR 3 TWN I buvlet@hotmail.com
+
+     15 1.282825    65.54.239.210         211.189.147.191       MSNMS    XFR 3 NS 207.46.108.76:1863 0 65.54.239.141:1863
+
+     25 1.443244    211.189.147.191       207.46.108.76         MSNMS    VER 4 MSNP11 MSNP10 CVR0
+
+     26 1.601145    207.46.108.76         211.189.147.191       MSNMS    VER 4 MSNP11
+
+     27 1.601268    211.189.147.191       207.46.108.76         MSNMS    CVR 5 0x040c winnt 5.1 i386 MSNMSGR 7.0.0777 msmsgs buvlet@hotmail.com
+
+     28 1.761498    207.46.108.76         211.189.147.191       MSNMS    CVR 5 8.1.0178 8.1.0178 8.1.0178 http://msgruser.dlservice.microsoft.com/download/5/6/4/5646481F-33EF-4B08-AF00-4904F7677B89/FR/Install_WLMessenger.exe http://messenger.msn.com/fr
+
+     29 1.761639    211.189.147.191       207.46.108.76         MSNMS    USR 6 TWN I buvlet@hotmail.com
+
+     31 1.920960    207.46.108.76         211.189.147.191       MSNMS    USR 6 TWN S ct=1222739475,rver=5.5.4177.0,wp=FS_40SEC_0_COMPACT,lc=1033,id=507,ru=http:%2F%2Fmessenger.msn.com,tw=0,kpp=1,kv=4,ver=2.1.6000.1,rn=1lgjBfIL,tpf=b0735e3a873dfb5e75054465196398e0
+
+     53 2.847604    211.189.147.191       207.46.108.76         MSNMS    USR 7 TWN S t=9HZqtgmXCH*StkR0tK2Pa2lLCJiGJhDklxKODbx0xF!L1jZuApVU0Ermy5*X2PF!eZuap!s*KFekS6jVWrTJPqkQM60nJ12YG5xt6jO1*jXhVJE*YigZ6Rer!GrjbGylKB&p=9ExdOYVXpA14!vJb6aITZsyP3rxdr8eFLSHe8jU2d*mQ!aBT2I4GCnmBkyuBOiqrtz0dWPpnjePKCMBctCL1YMlsuPmT5ggQVRXCBnYtphtu*J2yYPmONIm*YzhrLSE437UDxpLfc9h*HzBcZwPeH7KnPFgvMy6qJFdcnuS2nnoO1eSbZpWoMoWw$$
+
+     55 3.009120    207.46.109.23         211.189.147.191       MSNMS    OUT OTH
+
+     58 3.009886    207.46.108.76         211.189.147.191       MSNMS    USR 7 OK buvlet@hotmail.com 1 0
+
+     59 3.009946    207.46.108.76         211.189.147.191       MSNMS    SBS 0 null
+
+     61 3.010913    207.46.108.76         211.189.147.191       MSNMS    MSG Hotmail Hotmail 537
+
+     63 3.020268    211.189.147.191       207.46.108.76         MSNMS    SYN 8 2005-04-23T18:57:44.8130000-07:00 2005-04-23T18:57:54.2070000-07:00
+
+     66 3.207716    207.46.108.76         211.189.147.191       MSNMS    SYN 8 2008-08-08T21:11:20.753-07:00 2008-08-12T00:20:30.307-07:00 5 1
+
+     67 3.207743    207.46.108.76         211.189.147.191       MSNMS    GTC A
+
+     69 3.207795    207.46.108.76         211.189.147.191       MSNMS    PRP MFN BZ:R
+
+     70 3.207876    207.46.108.76         211.189.147.191       MSNMS    PRP MBE N
+
+     72 3.207963    207.46.108.76         211.189.147.191       MSNMS    LSG new%20Group d35fe492-0a6e-43d3-97ae-64b3a45919dd
+
+     73 3.208079    207.46.108.76         211.189.147.191       MSNMS    LST N=taja@xrath.com F=TAJACHAT%20-%20MSN%20\355\203\200\354\236\220\353\260\251 C=7d4f5204-322a-47a2-90a8-77e72f9711c2 11
+
+     75 3.208278    207.46.108.76         211.189.147.191       MSNMS    LST N=buzzler@hotmail.com F=[BZ:R] C=a20c22fe-aa65-42de-b55b-a39bbc0e6e5f 11
+
+     76 3.208398    207.46.108.76         211.189.147.191       MSNMS    BPR HSB 1
+
+     78 3.208592    207.46.108.76         211.189.147.191       MSNMS    LST N=enoplus@hotmail.com 10
+
+     79 3.208667    207.46.108.76         211.189.147.191       MSNMS    LST N=sugogioz@hotmail.com 12
+
+     81 3.208848    207.46.108.76         211.189.147.191       MSNMS    LST N=gina_rim@hotmail.com 4
+
+     82 3.219244    211.189.147.191       207.46.108.76         MSNMS    CHG 9 NLN 276828192
+
+     87 3.415745    207.46.108.76         211.189.147.191       MSNMS    MSG Hotmail Hotmail 290
+
+     88 3.535828    207.46.108.76         211.189.147.191       MSNMS    CHG 9 NLN 276828192
+
+     88 3.535828    207.46.108.76         211.189.147.191       MSNMS    CHL 0 76692485029460135521
+
+     88 3.535828    207.46.108.76         211.189.147.191       MSNMS    QRY 10 PROD0090YUAUV{2B 32
+093aa9157f89eb1be9bb8a7bf3626318
+
+     88 3.535828    207.46.108.76         211.189.147.191       MSNMS    QRY 10

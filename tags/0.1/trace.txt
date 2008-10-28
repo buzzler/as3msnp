@@ -1,0 +1,516 @@
+[SWF] mobsword.swf - 2,267,344 bytes after decompression
+VER 1 MSNP11 MSNP10 CVR0
+
+
+VER 1 MSNP11
+CVR 2 0x040c winnt 5.1 i386 MSNMSGR 7.0.0777 msmsgs buzzler@hotmail.com
+
+
+
+
+CVR 2 8.1.0178 8.1.0178 8.1.0178 http://msgruser.dlservice.microsoft.com/download/5/6/4/5646481F-33EF-4B08-AF00-4904F7677B89/FR/Install_WLMessenger.exe http://messenger.msn.com/fr
+USR 3 TWN I buzzler@hotmail.com
+
+
+
+
+XFR 3 NS 207.46.111.63:1863 0 65.54.239.211:1863
+VER 4 MSNP11 MSNP10 CVR0
+
+
+
+
+VER 4 MSNP11
+CVR 5 0x040c winnt 5.1 i386 MSNMSGR 7.0.0777 msmsgs buzzler@hotmail.com
+
+
+
+
+CVR 5 8.1.0178 8.1.0178 8.1.0178 http://msgruser.dlservice.microsoft.com/download/5/6/4/5646481F-33EF-4B08-AF00-4904F7677B89/FR/Install_WLMessenger.exe http://messenger.msn.com/fr
+USR 6 TWN I buzzler@hotmail.com
+
+
+
+
+USR 6 TWN S ct=1223531706,rver=5.5.4177.0,wp=FS_40SEC_0_COMPACT,lc=1033,id=507,ru=http:%2F%2Fmessenger.msn.com,tw=0,kpp=1,kv=4,ver=2.1.6000.1,rn=1lgjBfIL,tpf=b0735e3a873dfb5e75054465196398e0
+
+
+USR 7 TWN S t=9J*7nTllrG4VwHmPxDsnMNEWf1K1gW8OyEVbh2DiH8SstNQKQd!Kef89sf6jgk8jIQPqLNXhuLcXh20orah5oDsl!c0LYEzWd55U6o5wHO4EZaFLiyRRUGVAkxYrMZ9oWF&p=90OxjW4Q9AdYnIoflbeAKHmXtkwVYRsxI8p3d9VOG4vXmAn20H6c6OF6OHF3tVMQmwNVqJitR2KTFpczkBhyb34mLUHVnBVrfIz5noEChEa7ZjcTEyDZBM0j9CAmo8UoVqa6D14AQUG8mzShN5eWzAEYbQVIoVcEOYkYBstykZMR8$
+
+
+USR 7 OK buzzler@hotmail.com 1 0
+SYN 8 2005-04-23T18:57:44.8130000-07:00 2005-04-23T18:57:54.2070000-07:00
+
+
+SBS 0 null
+
+
+MSG Hotmail Hotmail 536
+
+
+SYN 8 2008-09-21T16:34:36.75-07:00 2008-10-06T21:07:52.9-07:00 137 10
+GTC A
+BLP BL
+
+
+PRP MFN [BZ:R]
+PRP PHM 82%2001067747767
+
+
+PRP HSB 1
+
+
+PRP MBE Y
+PRP WWE 0
+LSG 펜타%20UX 3aa29336-6d15-4c96-b496-09d075072f60
+
+
+LSG me2day a6c9def5-5f31-4f01-81af-10a6cff09f16
+LSG 펜타%20기획 71604503-9080-4e1f-92fe-30afc0207f1d
+LSG 기타%20대화%20상대 3f123626-e75e-488f-94dd-45c7e2a0878f
+
+
+LSG 펜타%20디자인 f38bdafc-130a-4311-b233-578baa5614b5
+LSG 펜타브리드 10af45e9-ea73-48aa-a31c-83b65077d75a
+
+
+LSG 펜타%20영상&스크립트&개발 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LSG 펜타%20경영지원실 9efc7a58-e8c6-4726-af2b-ccbf75e9fa96
+
+
+LSG 男 c7184c88-be81-4898-b790-ebe91b69618a
+
+
+LSG CHIPS 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+
+
+LST N=lovedeen@hitel.net F=[박형범] C=79ced8a6-3cf6-43f9-bd39-005e351fa8fa 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+
+
+LST N=lightjhyun@hotmail.com F=[장광현] C=cfc2f107-ded2-4a17-9107-0105bc1570e6 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=ddlab@naver.com F=ddlab@naver.com C=5f760976-3e25-44ab-a372-0223cd9eb605 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=rath@xrath.com F=rath C=e5170e24-3a52-409c-b264-02d6b3d8ebc2 11 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+
+
+BPR HSB 1
+BPR HSB 1
+LST N=shinyoungjin83@hotmail.com F=▶영진◀조용히%20살자..-_- C=b6ab087f-a49c-4fbf-8f06-078f14d6d0c9 11 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+LST N=taja@xrath.com F=TAJACHAT%20-%20MSN%20타자방 C=f48884e6-e0b9-4d1d-80ad-08dbbbf5d387 11 3f123626-e75e-488f-94dd-45c7e2a0878f
+LST N=maaelva@hotmail.com F=민영/Maan(º㉨º)ㆀ%20여기는%20선릉...%20T_T C=c92d24b4-976d-4300-a8d0-091055ee60ca 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+
+
+LST N=dricas@gmail.com F=dricas@gmail.com C=494fc20e-bbd5-4726-be70-0b97f5ae4cfe 11 c7184c88-be81-4898-b790-ebe91b69618a
+BPR MOB Y
+BPR MOB Y
+
+
+BPR HSB 1
+BPR HSB 1
+LST N=oh_ag@hotmail.com F=oh_ag@hotmail.com C=7526470a-02dd-4755-a0af-0d6d8b2fb3c7 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=rebirthg5@hotmail.com F=매일%20술이야~~ C=1c6c60f1-ae8c-48bb-8f17-0f7ad5a5bc0c 3 3aa29336-6d15-4c96-b496-09d075072f60
+BPR HSB 1
+BPR HSB 1
+
+
+LST N=dlgofus@hanmail.net F=[이해련] C=3d1bd75e-6e62-4642-a25d-121f1886dd89 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=chlwkfyd@hotmail.com F=chlwkfyd@hotmail.com C=d88a41fe-f28d-4625-b593-1706ecdd6164 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+
+
+LST N=inerschw@hotmail.com F=서창원%20<:3%20%20)~%20삐딱이 C=d20fffdc-4e01-457a-b77a-1ad001df297c 11 f38bdafc-130a-4311-b233-578baa5614b5
+BPR HSB 1
+BPR HSB 1
+
+
+LST N=ohsillan@hotmail.com F=ohsillan@hotmail.com C=c8ae5e2d-6bfc-458a-ac44-1bd9aeb7d842 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=givenjazz@hotmail.com F=전형일%20-%20갈라파고스로%20떠나고%20싶다 C=94ee6e4e-2617-4e2d-9c63-1bebc15eac17 11 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+BPR MOB Y
+BPR MOB Y
+BPR HSB 1
+BPR HSB 1
+LST N=kwak@gooddesigner.net F=[곽정민] C=85407611-2165-4fdf-b6a0-224cb3969332 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=zeemy@hotmail.com F=[새콤동한]%20아주%20조금%20죠쿠나`~ C=2ab293de-ad45-4361-acd1-233957d4a33d 11 3aa29336-6d15-4c96-b496-09d075072f60
+LST N=sodght@hotmail.com F=len。 C=ad0ca1f0-c22d-4717-a33d-25ede044ab2d 3 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=djsol3@hotmail.com F=djsol3@hotmail.com C=74cc1050-61b8-44dd-a915-27ee01752de0 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=daphniehan@hotmail.com F=HanSang%20::%20몸도%20마음도%20근육질 C=018da75d-8621-4587-99a5-29d8b3744f25 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+LST N=viseul@hotmail.com F=[앵양]%20Positioning C=9e783b50-1ac5-43c0-8b80-2bb770795fc4 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=rogi@pentabreed.com F=♥%20로기%20♥%20적절한%20분배... C=efcbba90-554a-4e0e-b5aa-30bc18670d3a 11 f38bdafc-130a-4311-b233-578baa5614b5
+BPR MOB Y
+BPR MOB Y
+BPR HSB 1
+BPR HSB 1
+LST N=fotatoo@nate.com F=fotatoo@nate.com C=3a48a229-1080-4175-a178-310487281914 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=airtreesky@hotmail.com F=airtreesky@hotmail.com C=8699760d-a1b1-4853-bbef-326d1222a706 11 71604503-9080-4e1f-92fe-30afc0207f1d
+BPR HSB 1
+BPR HSB 1
+LST N=jh0500@freechal.com F="[이준호]%204.3.%20%20%20juNo%20//%20%20La%20Vie%20En%20Rose™ C=17045d32-29cf-4618-98e6-360c7b8141bc 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=ruvu@hotmail.com F=ruvu C=c866742c-7651-4f1a-b1eb-38b89d92be6c 11 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+
+
+LST N=jhmui@hotmail.com F=[비류연]%20영어가%20막%20재밌어지려고그래. C=38616846-bd28-46d0-83d5-3bf3baf68294 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=marshmallongun@hotmail.com F=김태완 C=30f3d8f9-7cbb-4a30-826b-3c5050539b65 11 10af45e9-ea73-48aa-a31c-83b65077d75a
+LST N=pearl0215@hotmail.com F={이진주} C=152cefb4-a4d6-46d2-8779-3fa36cd59424 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=djgroove@djgroove.net F=d%20e%20e%20j%20a%20y C=abd3f008-3695-4b19-ab69-411dab598691 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=gid98@hanmail.net F=[낭자&향미]%20오늘%20당신은....?%20햅틱폰%20몹시%20갖고%20싶다..ㅜㅜ%204팀%20=%20썩소웅팀,다크철이,%20똘끼향미,%20어버몽이,식신똥오,광돌경희,케찹주형%20.. C=aa7661a5-bada-469a-917b-438402722356 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=nirvanapark@hotmail.com F=j.%20주영 C=207700b5-ee11-44d0-b163-46ced58870ca 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+LST N=yuni_79@hotmail.com F=[Stylish%20Tae-Yoon]Do%20i%20have%20your%20word%20on%20that? C=74c8d873-fcb8-496a-948d-476352a8b7ab 11 3f123626-e75e-488f-94dd-45c7e2a0878f
+BPR MOB Y
+BPR MOB Y
+BPR HSB 1
+BPR HSB 1
+LST N=bowee77@hotmail.com F=[최정화]%20난%20정말%20복받은%20것같아요..너무너무%20감사합니다~ C=b6811629-611b-4acd-81a4-4baa5106c27c 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=vishiv@live.co.kr F=[선유]fennec C=cf018087-3318-424e-9e02-4d7322325a2d 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=unusuali@hotmail.com F=[배은정]소율이~민뻔%20나왔따.%20민쯩은%20안주나?ㅋㅋ C=041661a0-0f52-4899-9e0c-4e14388c942b 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=urachasm@hotmail.com F=함 C=59fdaf2c-6c2e-408e-8a77-52c0e20c3c2f 11 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+LST N=priscilla928@hanmail.net F=[ĦΛΝŊА] C=03b596e9-d7ee-4fb5-9cf6-5385980bd514 11 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+LST N=sinkoon02@hotmail.com F=신주형 C=142da8b6-e27c-4ba5-8d90-5e565cf44aa9 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=haz102863@hotmail.com F=복정동김씨 C=13365ad6-1101-4584-ae2c-605ad2c89b70 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=lhy2536@hotmail.com F=[이형석]경영지원실 C=abdd09dc-8a09-4f9a-ac86-617714113c42 11 9efc7a58-e8c6-4726-af2b-ccbf75e9fa96
+LST N=sb1415@passport.com F=*unicef%20[미투데이%20-%20ncsoft] C=825f43fd-07b0-4008-96fd-619f4a17a945 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+LST N=titanhero@hotmail.com F=[김영환] C=3a65d80a-c268-494a-b525-629de64a1b92 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=kokma@hanimail.com F=[구정선] C=f8d8df83-abe2-4242-83af-62b9375b6bc0 11 f38bdafc-130a-4311-b233-578baa5614b5
+BPR HSB 1
+BPR HSB 1
+LST N=orinalgga@msn.com F=orinalgga@msn.com C=9e10c903-7aa9-499e-9a9f-6440c9ee48a1 11
+LST N=byplus@hotmail.com F=byplus@hotmail.com C=cffc3693-b039-4b48-bf36-65e12e1d5c70 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=sh3253@hotmail.com F=[조%20성훈] C=e98b1571-b752-4f21-96b7-6764a3fdcdbf 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=joyful074@hotmail.com F=joyful074@hotmail.com C=8cb5f5c0-7e5c-497f-a060-686319b219e6 11 3f123626-e75e-488f-94dd-45c7e2a0878f
+LST N=naru3111@hotmail.com F=[명월]ロングライフスタイル C=e4ad65d3-a6a8-4074-ad75-715ae869788b 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=do205@hotmail.com F=[이동오]%20205%20Concentration!%20비지비지굿굿! C=b166e44c-185b-41b6-8b1f-73a2f172d68c 11 f38bdafc-130a-4311-b233-578baa5614b5
+BPR HSB 1
+BPR HSB 1
+LST N=doong2e@hotmail.com F=┏相現┓盡人事待天命!! C=de20d909-d49e-4b92-ba93-75b6a3f2e0e1 11 c7184c88-be81-4898-b790-ebe91b69618a
+BPR HSB 1
+BPR HSB 1
+LST N=due99@hanmail.net F=[황덕조]%20(THERMO%20,%20BLEND로%20....). C=e6a93170-1705-40cd-b6dc-7b6730da16fc 11 f38bdafc-130a-4311-b233-578baa5614b5
+BPR HSB 1
+BPR HSB 1
+LST N=jucina@hotmail.com F=jucina C=532e0f76-1756-4a42-b732-7d16ccaeb8df 11 10af45e9-ea73-48aa-a31c-83b65077d75a
+BPR HSB 1
+BPR HSB 1
+LST N=note.spring@gmail.com F=봄공책 C=6a24e7fb-7e0e-48fc-a5f4-830385c15434 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=kamuiii@hotmail.com F=[현희]무서운순자! C=0824ad8c-bbb0-42d9-a776-8671075a3051 11 f38bdafc-130a-4311-b233-578baa5614b5
+BPR HSB 1
+BPR HSB 1
+LST N=jaynenusehi@hotmail.com F=jaynenusehi@hotmail.com C=dfe0bee1-699d-4663-a6a5-8801b997345d 3
+LST N=lunar198406@hotmail.com F=[문주]%20幸運を祈ります. C=8a93fd05-8873-405f-a0ac-888588604a98 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=kdy0724@hotmail.com F=kdy0724@hotmail.com C=9509a01d-4d06-46ea-9d38-88c89eb370e8 3 f38bdafc-130a-4311-b233-578baa5614b5
+BPR HSB 1
+BPR HSB 1
+LST N=chani0915@hotmail.com F=chani0915@hotmail.com C=006deba0-60bd-4d9a-9102-8e007fd0de0c 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=rickeysh@hotmail.com F=[여우/선유]%20어질어질어질어질어질어질%20仁... C=1aeaf190-cff5-479a-955d-8e74235752b9 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+LST N=siimz@hotmail.com F=[심순보] C=cde28bb1-828c-409b-8647-8fc8e362d9d0 11 3f123626-e75e-488f-94dd-45c7e2a0878f
+BPR MOB Y
+BPR MOB Y
+BPR HSB 1
+BPR HSB 1
+LST N=leepaa@hotmail.com F=leepaa@hotmail.com C=37977870-7673-4239-8091-9496bfa6be88 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=jw_laki@hotmail.com F=[라키]%20꾸준한라키양 C=bd5a27d1-fb5b-49e6-b919-95db2c860d18 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=searism1@hotmail.com F=searism1@hotmail.com C=b9661e25-5cb5-4367-bd59-9bafefd28058 11 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+LST N=buvlet@hotmail.com F=BZ:R%20진아전용 C=7f51d5aa-0882-4640-ac52-a23ba864aaf6 11 3f123626-e75e-488f-94dd-45c7e2a0878f
+BPR HSB 1
+BPR HSB 1
+LST N=star834@hotmail.com F=[성승현]★★★★★%20쩐과%20나 C=9b3cf952-2026-42c0-af62-a29264cec509 11 3aa29336-6d15-4c96-b496-09d075072f60
+LST N=ryu0505@live.co.kr F=[류창일]Pygmalion%20Effect!! C=eaac52c9-8308-48e0-8d69-a3de9dd583a6 11 9efc7a58-e8c6-4726-af2b-ccbf75e9fa96
+LST N=kkobbo13@hotmail.com F=[고성용] C=01ab9bc8-4132-42d8-b099-a6818dee44e0 11 10af45e9-ea73-48aa-a31c-83b65077d75a
+BPR HSB 1
+BPR HSB 1
+LST N=heyjou@hotmail.com F=[주국] C=295b923b-ca34-4648-a4d6-a8f5fc6d4a24 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=mactilda@hotmail.com F=mactilda@hotmail.com C=b27dad0b-89b1-4036-8db7-aaa06106fbb9 11 9efc7a58-e8c6-4726-af2b-ccbf75e9fa96
+LST N=younghwa.yi@gmail.com F=torrki C=310b5001-83e7-4a83-9761-b026f0ea4aec 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+LST N=danggoz@hotmail.com F=[당고/jisun]%20지구는%20둥그니까~ C=5e5fa46b-228d-4c0e-8bf3-b4181ac1a89e 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+LST N=woonga2000@icu.ac.kr F=[이름만히어로] C=c97e3fe1-fce9-4e74-a597-b49c2e018eeb 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=txun3379@hotmail.com F=txun3379@hotmail.com C=fc85c804-3875-427d-b355-b5f54faa8cd9 11
+LST N=ahli_s@hotmail.com F=*unicef™★%20비밀은%20어디에%20잇나요%20* C=b4018581-2a6e-4ff8-a7ba-b6bd0c8b145a 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+LST N=giveme75@hotmail.com F=[권기범]%20눈을감고%20한박자%20천천히... C=cd4e554b-6ea0-45b3-804a-bbef4d4980a0 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=dawn8228@hotmail.com F=dawn8228@hotmail.com C=ac7d6eb6-354a-4171-9ef4-bd3d5dfbd46d 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=shinnbi@hanmail.net F=《현용》 C=02576f2c-984c-4fca-b579-c01c6061ed97 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=hj_1120@hotmail.com F=[GrapeDrink] C=68e1c934-399d-46dc-94ad-c02d9a94a9ee 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+LST N=kjkj1004@hotmail.com F=[갱] C=b1c51169-e90a-4fe6-b4a2-c1401841a37f 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+LST N=hi_lo_kiki@hotmail.com F=hi_lo_kiki@hotmail.com C=bc6db29c-65f3-426f-8c7c-c7c679cac4e8 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=happyandlife@hotmail.com F=[혜연] C=85630bd6-1f26-4274-83e4-cc9c8e12a1b0 11 3aa29336-6d15-4c96-b496-09d075072f60
+LST N=hyuklub1@hotmail.com F=김하나[I%20hate%20this-] C=47347a0f-7fc9-4681-8850-d2261edc93f3 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=pina314@hotmail.com F=pina314@hotmail.com C=c81ad67e-5fe7-4bb8-8b3a-d458605336aa 11 f38bdafc-130a-4311-b233-578baa5614b5
+BPR MOB Y
+BPR MOB Y
+BPR HSB 1
+BPR HSB 1
+LST N=hanlove5k@hotmail.com F=[한기] C=53c577d1-493c-43d0-b9c8-d5eb8c274e08 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=hanapop@miso.com F=hanapop@miso.com C=4ab6f78c-dd21-4bfe-bcef-d61535f90945 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=dambaejo22@hotmail.com F=dambaejo22@hotmail.com C=4f001ce5-d413-4650-8aeb-d724a2b7dcbb 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=ibrainrush@hotmail.com F=[이성훈%20:%20내선%20561]%20----------- C=1d52ff29-35ec-44b5-bfa3-d7889fb4ee95 11 3aa29336-6d15-4c96-b496-09d075072f60
+LST N=primuscreater@hotmail.com F=*unicef[이승원]%20Air%20Jordan%20+%20뱅크시%20+%20http://blog.naver.com/sugarweb C=1b80c65b-fcd6-44db-baac-d83293af6975 11 f38bdafc-130a-4311-b233-578baa5614b5
+BPR MOB Y
+BPR MOB Y
+BPR HSB 1
+BPR HSB 1
+LST N=leemyun@hotmail.com F=[이미현]-meixian- C=df7a00ea-48d9-4bc2-adcd-dcdcc9ab87b4 11 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+BPR PHH tel:86%2010.8230.2918 0
+BPR PHH tel:86%2010.8230.2918 0
+BPR HSB 1
+BPR HSB 1
+LST N=tttboram@hotmail.com F=tttboram@hotmail.com C=6510bece-1990-4f8c-ba33-de697602a8e8 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=isjin13@hotmail.com F=[Jin]™ C=bad7a7fd-7556-4798-ad94-e0f1d68d3d62 11 c7184c88-be81-4898-b790-ebe91b69618a
+LST N=loopa_ce78@hotmail.com F=[쓰용]%20후루룹~%20짭짭%20드르렁 C=f451a07a-83af-4cf8-9066-e1e1e89825c2 11 3aa29336-6d15-4c96-b496-09d075072f60
+BPR HSB 1
+BPR HSB 1
+LST N=subalter18@hotmail.com F=[subalter]%20융 C=5552f8f0-0749-49ae-b8ff-e3f218655658 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR HSB 1
+BPR HSB 1
+
+
+LST N=youths80@hotmail.com F=youths80@hotmail.com C=bc6ab942-7fbe-46a0-96a2-e77ecdf96d54 11 71604503-9080-4e1f-92fe-30afc0207f1d
+LST N=jongal881@hotmail.com F=종선%20晩學徒 C=b2614988-8280-4163-9f2d-e9e55f2d0c2d 11 3f123626-e75e-488f-94dd-45c7e2a0878f
+LST N=searism@hotmail.com F=sear%20sayz,%20"나%20원래%20독고다이야.%20어쩔껀데?%20천상!%20천하!%20유아!%20독존!%20꺄하%20-_-" C=378d3af4-b43a-429e-baed-ea098770e4a4 3 3c75099a-c7b7-4d6d-bd38-f5086a3e56a8
+LST N=egotism84@hotmail.com F=egotism84@hotmail.com C=774892f8-b3fd-4246-8693-efa73fc92e9e 11
+LST N=thirdtype@korea.com F=회인@thirdtype.net C=d66b0424-4b4c-4702-8bf1-f0516cd39616 11 a6c9def5-5f31-4f01-81af-10a6cff09f16
+BPR MOB Y
+BPR MOB Y
+BPR HSB 1
+BPR HSB 1
+LST N=soiam99@hotmail.com F=soiam99@hotmail.com C=eeb14b02-bc99-4192-a7fa-f0a2eb12232f 11 f38bdafc-130a-4311-b233-578baa5614b5
+LST N=badalang@hotmail.com F=badalang@hotmail.com C=1045b9c9-fa1a-4410-b8a5-f226be89a75c 11 71604503-9080-4e1f-92fe-30afc0207f1d
+BPR HSB 1
+BPR HSB 1
+LST N=tearfully@hotmail.com F=*unicef[친절한%20성숙씨]%20릴렉스~~%20릴렉스~ C=70f398d0-adf7-4ca1-a6c3-f706661c676d 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+LST N=mikyruke@hotmail.com F=mikyruke@hotmail.com C=aac1ee3c-f153-4b26-988d-fa3a5bec5cc5 11 b2e49d21-f8fa-48fd-ba09-c3402d7402b6
+BPR MOB Y
+BPR MOB Y
+LST N=overainbow@hanmail.net F=overainbow@hanmail.net C=e7e15132-701f-401f-a0e0-fdea8ba9c375 11
+LST N=bbking1_kr@hotmail.com F=죠셉폴_주니어 C=c3685f98-26ad-42e8-990c-fe5a833bf426 11 3aa29336-6d15-4c96-b496-09d075072f60
+BPR HSB 1
+BPR HSB 1
+LST N=masterpc@4eva.net 10
+LST N=dhprio@korea.com 10
+LST N=freestudio100@hotmail.com 10
+LST N=dsppp@hotmail.com 10
+LST N=seori85@gmail.com 10
+LST N=taya004@hotmail.com 10
+LST N=s13524@hotmail.com 10
+LST N=sphrules@hotmail.com 10
+LST N=tarepandamon@hotmail.com 10
+LST N=gina_rim@hotmail.com 2
+LST N=nundodung@hotmail.com 2
+LST N=sagas76@hotmail.com 12
+LST N=gounsol83@hotmail.com 12
+LST N=kristiankalderon@hotmail.com 12
+LST N=jcpaku@unitel.co.kr 12
+LST N=jobberty@hotmail.com 12
+LST N=coyo92@hotmail.com 12
+LST N=mark_seo@hotmail.com 12
+LST N=javis_sandoval@hotmail.com 12
+LST N=narcissa-1@hotmail.com 12
+LST N=bhkim72@hotmail.com 12
+LST N=onestone7@hanmail.net 12
+LST N=manicue@hotmail.com 12
+LST N=kosung75@hotmail.com 12
+LST N=dasom795@hotmail.com 12
+LST N=starlike@msn.com 12
+LST N=windrath@hotmail.com 12
+LST N=sodaflash@hotmail.com 12
+LST N=opalgywylu@hotmail.com 4
+LST N=virgiecefape@hotmail.com 4
+LST N=johnnieduzus@hotmail.com 12
+LST N=marinababokyb@hotmail.com 12
+CHG 9 NLN 276828192
+
+
+
+
+CHG 9 NLN 276828192
+
+
+ILN 9 NLN siimz@hotmail.com [심순보] 2254295148 %3Cmsnobj%20Creator%3D%22siimz%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22EpafroQ27vbuYVWtHCr0jDVuEJY%3D%22%20Size%3D%2228673%22%20Location%3D%220%22%20Friendly%3D%22cwBvAG8AbgBiAG8AAAA%3D%22%2F%3E
+
+
+UBX siimz@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{6E4126E6-D695-4DD8-800E-DCFA2744C38E}</MachineGuid></Data></DATATAG>
+ILN 9 NLN byplus@hotmail.com [김병철]%20byPLUS™ 2254290988 %3Cmsnobj%20Creator%3D%22byplus%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22dW0VZfrFH4igpqB%2Baknu%2BYLVPQc%3D%22%20Size%3D%2225288%22%20Location%3D%220%22%20Friendly%3D%22tMykwiAA0LkAAA%3D%3D%22%2F%3E
+UBX byplus@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{C6F94497-DBB5-46AE-9FE2-B97D86AC41D4}</MachineGuid></Data></DATATAG>
+ILN 9 NLN danggoz@hotmail.com [당고/jisun] 1985859636 %3Cmsnobj%20Creator%3D%22danggoz%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22dMZKayl4%2BqcLK45vOILJvt5UzEU%3D%22%20Size%3D%223136%22%20Location%3D%220%22%20Friendly%3D%22cwB1AHMAdQBtAHUAAAA%3D%22%2F%3E
+UBX danggoz@hotmail.com 167
+<DATA TAG><Data><PSM>배에 걸신이 입주했다 ㄱ- 치즈케익..</PSM><CurrentMedia></CurrentMedia><MachineGuid>{50BAD996-3DFA-4891-B32E-E8E7208FB71B}</MachineGuid></Data></DATATAG>
+
+
+MSG Hotmail Hotmail 295
+Discard Message (Content-Type) : x-msmsgsinitialmdatanotification
+ILN 9 IDL gid98@hanmail.net [낭자&향미]%20오늘%20당신은....?%20%20아른거리자노.....똥쟁이%20('.') 2254290988 %3Cmsnobj%20Creator%3D%22gid98%40hanmail.net%22%20Type%3D%223%22%20SHA1D%3D%22ET0vvUStAWwAnx0AOWom80S%2BBQw%3D%22%20Size%3D%2226832%22%20Location%3D%220%22%20Friendly%3D%22bQBzAG4AAAA%3D%22%2F%3E
+UBX gid98@hanmail.net 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{46681277-DC34-4492-98F0-532B64EA3835}</MachineGuid></Data></DATATAG>
+
+
+ILN 9 IDL dawn8228@hotmail.com [따운]%20잘다녀왔습니다!!。 2254290988 %3Cmsnobj%20Creator%3D%22dawn8228%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%225Bi%2Fqjy4%2FxMT8SUy3sw8HfV0NZI%3D%22%20Size%3D%2226247%22%20Location%3D%220%22%20Friendly%3D%22AKxMrnTHJMbAyci5AAA%3D%22%2F%3E
+UBX dawn8228@hotmail.com 199
+<DATA TAG><Data><PSM>- 다운이에게 먹이를 주지 마세요。</PSM><CurrentMedia>WMP\0Music\00\0{0} - {1}\0\0\0\0\0</CurrentMedia><MachineGuid>{5EB751D7-25DC-4077-999F-91B34D195701}</MachineGuid></Data></DATATAG>
+
+
+ILN 9 NLN fotatoo@nate.com [최난영]%20우리식대로%20살자. 2254290988 0
+UBX fotatoo@nate.com 127
+<DATA TAG><Data><PSM>마크툽</PSM><CurrentMedia></CurrentMedia><MachineGuid>{155B450A-3263-401D-ACA0-80DED89F183F}</MachineGuid></Data></DATATAG>
+ILN 9 NLN chlwkfyd@hotmail.com [홍순일] 2254290988 %3Cmsnobj%20Creator%3D%22chlwkfyd%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22lpK299kMMyIhbnu5OdeWyENEzS4%3D%22%20Size%3D%222801%22%20Location%3D%220%22%20Friendly%3D%22RL5YziAAWMeQxwAA%22%2F%3E
+UBX chlwkfyd@hotmail.com 129
+<DATA TAG><Data><PSM>[홍순일]</PSM><CurrentMedia></CurrentMedia><MachineGuid>{3BD0AACF-3070-443F-A57B-BE13F68A109B}</MachineGuid></Data></DATATAG>
+ILN 9 NLN taja@xrath.com TAJACHAT%20-%20MSN%20타자방 1073791012 0
+UBX taja@xrath.com 0
+ILN 9 NLN bowee77@hotmail.com [최정화]%20고민은%20깊게%20결정은%20빠르게! 2254290988 0
+UBX bowee77@hotmail.com 154
+<DATA TAG><Data><PSM>살아가는데 정답이 있을까?</PSM><CurrentMedia></CurrentMedia><MachineGuid>{4B872186-4DE1-448E-A287-C7D0E9BA05ED}</MachineGuid></Data></DATATAG>
+ILN 9 NLN tttboram@hotmail.com [보람보람]%20?????%20대하랑%20꽃게먹고싶어요~ 2254290988 %3Cmsnobj%20Creator%3D%22tttboram%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22rJbopetzRL4J6NCCSxvFpjxAh%2Bc%3D%22%20Size%3D%2224055%22%20Location%3D%220%22%20Friendly%3D%22HKzIwHywfMUAAA%3D%3D%22%2F%3E
+UBX tttboram@hotmail.com 130
+<DATA TAG><Data><PSM>흠냐흠냐</PSM><CurrentMedia></CurrentMedia><MachineGuid>{DD9C884A-B18E-45B4-8381-EE6B9E2B7DC5}</MachineGuid></Data></DATATAG>
+ILN 9 NLN hanapop@miso.com Hanapop 44 0
+
+
+UBX hanapop@miso.com 0
+ILN 9 NLN viseul@hotmail.com 앵. 2254291004 %3Cmsnobj%20Creator%3D%22viseul%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22ddvKTcVYrZQdPkIqf44AcuRBBCE%3D%22%20Size%3D%222808%22%20Location%3D%220%22%20Friendly%3D%22MAAwAAAA%22%2F%3E
+UBX viseul@hotmail.com 144
+<DATA TAG><Data><PSM>이젠...뭐 모르것다~</PSM><CurrentMedia></CurrentMedia><MachineGuid>{558CCEA6-1D9D-48C7-9EEE-37A11D8239A4}</MachineGuid></Data></DATATAG>
+ILN 9 NLN subalter18@hotmail.com [subalter]%20융 2254295076 %3Cmsnobj%20Creator%3D%22subalter18%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22GhXixqzA%2BZkDoNOE1iHO3JvagPM%3D%22%20Size%3D%222486%22%20Location%3D%220%22%20Friendly%3D%22NccM02zQAAA%3D%22%2F%3E
+UBX subalter18@hotmail.com 133
+<DATA TAG><Data><PSM>Force Unleashed</PSM><CurrentMedia></CurrentMedia><MachineGuid>{BD6BD078-8B3D-49D3-B460-F2DF8E3B4326}</MachineGuid></Data></DATATAG>
+ILN 9 BSY woonga2000@icu.ac.kr [이름만히어로] 2254290988 %3Cmsnobj%20Creator%3D%22woonga2000%40icu.ac.kr%22%20Type%3D%223%22%20SHA1D%3D%22l6DKBoq3bWu7yXnY2W6GcHi9C3Q%3D%22%20Size%3D%223670%22%20Location%3D%220%22%20Friendly%3D%22yLkUvjEAAAA%3D%22%2F%3E
+UBX woonga2000@icu.ac.kr 141
+<DATA TAG><Data><PSM>새번호 010-8563-5597</PSM><CurrentMedia></CurrentMedia><MachineGuid>{0A8519B2-6111-4FFF-958B-3A254FCE3BBA}</MachineGuid></Data></DATATAG>
+ILN 9 NLN hanlove5k@hotmail.com [한기] 2254290988 %3Cmsnobj%20Creator%3D%22hanlove5k%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22IszkVa%2FYUZJB%2FrT4cZJDbBPPMzE%3D%22%20Size%3D%227595%22%20Location%3D%220%22%20Friendly%3D%22kM6tuVzVXwAwADMAAAA%3D%22%2F%3E
+UBX hanlove5k@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{2F0EC09E-9CDA-475D-A21F-53FF72274F27}</MachineGuid></Data></DATATAG>
+
+
+ILN 9 IDL lhy2536@hotmail.com [이형석] 1985855532 %3Cmsnobj%20Creator%3D%22lhy2536%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22wL8%2BdbIkiEi8vddODY%2BA1V4HOHw%3D%22%20Size%3D%222394%22%20Location%3D%220%22%20Friendly%3D%22RABTAEMAMAAwADAAMAA0AAAA%22%2F%3E
+
+
+UBX lhy2536@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{23BD6E36-253E-46C0-AB47-7C2474FE14F7}</MachineGuid></Data></DATATAG>
+ILN 9 NLN sh3253@hotmail.com [조%20성훈] 2254290988 %3Cmsnobj%20Creator%3D%22sh3253%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22FxkFHzMTf%2FQ%2FLqtUyURSMrKVBjg%3D%22%20Size%3D%222596%22%20Location%3D%220%22%20Friendly%3D%22McHI1gAA%22%2F%3E
+
+
+UBX sh3253@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{08665DE2-C207-46CE-924A-6F6EEA21021F}</MachineGuid></Data></DATATAG>
+ILN 9 NLN daphniehan@hotmail.com HanSang%20::%20부메랑 2254295084 %3Cmsnobj%20Creator%3D%22daphniehan%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22mwjxvCeibswoBnAX8oA3NTcndHk%3D%22%20Size%3D%2230733%22%20Location%3D%220%22%20Friendly%3D%22MgAwADAAOAAxADAAbQBlADIAAAA%3D%22%2F%3E
+UBX daphniehan@hotmail.com 120
+<DATA TAG><Data><PSM>Om</PSM><CurrentMedia></CurrentMedia><MachineGuid>{C3A3361A-EDE1-4A86-820D-AADE73D66722}</MachineGuid></Data></DATATAG>
+ILN 9 NLN soiam99@hotmail.com 황진원_7막7장 2254290988 %3Cmsnobj%20Creator%3D%22soiam99%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22ZTbE6J8kl20dzoFo9bmIlpOOF90%3D%22%20Size%3D%2223985%22%20Location%3D%220%22%20Friendly%3D%22fMWQxyAAmLA0uwAA%22%2F%3E
+UBX soiam99@hotmail.com 243
+<DATA TAG><Data><PSM>운명은 기회의 문제가 아니라 선택의 문제이다. 기다리는것이 아니라면 성취하면 되는것이다.</PSM><CurrentMedia></CurrentMedia><MachineGuid>{4FCD5073-E494-4FAB-AEDD-0FD54B8F65FB}</MachineGuid></Data></DATATAG>
+ILN 9 NLN hi_lo_kiki@hotmail.com 조민경 2254225452 %3Cmsnobj%20Creator%3D%22hi_lo_kiki%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22oSHzamL%2F85VXaXHsDuBEBqaSA3U%3D%22%20Size%3D%222991%22%20Location%3D%220%22%20Friendly%3D%22ZAA3ADgAZQBjADkAYwA4AGEAZQA1ADgAOQAwAGQAYgAwAGIAYwBhAGQAOABlAGMAYQ
+BjADQAYQA3AGIANwBiADQAYQA2ADYAZQBlAGYAMgAAAA%3D%3D%22%2F%3E
+BjADQAYQA3AGIANwBiADQAYQA2ADYAZQBlAGYAMgAAAA%3D%3D%22%2F%3E
+UBX hi_lo_kiki@hotmail.com 148
+<DATA TAG><Data><PSM>이게모니..................</PSM><CurrentMedia></CurrentMedia><MachineGuid>{AE4BD3AE-AB18-42A5-8EA9-E8FEE0719B04}</MachineGuid></Data></DATATAG>
+ILN 9 NLN kokma@hanimail.com [구정선] 2254295084 %3Cmsnobj%20Creator%3D%22kokma%40hanimail.com%22%20Type%3D%223%22%20SHA1D%3D%229s89IuOl7i%2F41JK9WJNutgtW%2F98%3D%22%20Size%3D%222158%22%20Location%3D%220%22%20Friendly%3D%22OQA5ADkAOQAAAA%3D%3D%22%2F%3E
+UBX kokma@hanimail.com 147
+<DATA TAG><Data><PSM>sweet ,·´″&quot;`°³оΟ</PSM><CurrentMedia></CurrentMedia><MachineGuid>{898DAA4A-769D-414F-9ACD-88D31A39C1DD}</MachineGuid></Data></DATATAG>
+ILN 9 NLN ryu0505@live.co.kr [류창일]Pygmalion%20Effect!! 1985855532 %3Cmsnobj%20Creator%3D%22ryu0505%40live.co.kr%22%20Type%3D%223%22%20SHA1D%3D%22iMu6QwjGaz19Uc3Iub13%2FGgtfY4%3D%22%20Size%3D%2220628%22%20Location%3D%220%22%20Friendly%3D%22wK3sxbTGIAAVrETFwMkAAA%3D%3D%22%2F%3E
+UBX ryu0505@live.co.kr 167
+<DATA TAG><Data><PSM>my sensation = Stuffy, uneasy, irritated, vain...</PSM><CurrentMedia></CurrentMedia><MachineGuid>{505F0244-4A1B-46DC-BCFA-084A8E163279}</MachineGuid></Data></DATATAG>
+ILN 9 NLN dricas@gmail.com [김상근] 2254295148 %3Cmsnobj%20Creator%3D%22dricas%40gmail.com%22%20Type%3D%223%22%20SHA1D%3D%223SXfHORoWnKXKx5WJJn0xm16iYE%3D%22%20Size%3D%2220831%22%20Location%3D%220%22%20Friendly%3D%22bQBpAG4AaQBzAGgAAAA%3D%22%2F%3E
+UBX dricas@gmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{16EF7229-2E5A-4E0C-BE13-DF463633110D}</MachineGuid></Data></DATATAG>
+ILN 9 NLN airtreesky@hotmail.com [배근휘%20DA광고] 1985859628 %3Cmsnobj%20Creator%3D%22airtreesky%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22w30flWTQU3YMCyDkUPyt4hdNDSE%3D%22%20Size%3D%222203%22%20Location%3D%220%22%20Friendly%3D%22vMV0rQAA%22%2F%3E
+UBX airtreesky@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{3EBB1F1B-30E8-4891-9D3A-FC272AE95A86}</MachineGuid></Data></DATATAG>
+ILN 9 NLN naru3111@hotmail.com [명원]%20時代?れかな；；； 2254290988 %3Cmsnobj%20Creator%3D%22naru3111%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%222st%2FsKrrNgIW%2B%2FsHsFeE3FT0QQ8%3D%22%20Size%3D%2219846%22%20Location%3D%220%22%20Friendly%3D%22fMWQxyAAmLA0uwAA%22%2F%3E
+ILN 9 NLN giveme75@hotmail.com [권기범]%20눈을%20감고%20한박자%20천천히... 1985855532 %3Cmsnobj%20Creator%3D%22giveme75%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%223StOjEEHY73GbQw32Gxs4PIDxUs%3D%22%20Size%3D%222358%22%20Location%3D%220%22%20Friendly%3D%22WNX8yMiyMQAAAA%3D%3D%22%2F%3E
+UBX naru3111@hotmail.com 127
+<DATA TAG><Data><PSM>=ㅅ=....</PSM><CurrentMedia></CurrentMedia><MachineGuid>{7C50E81E-1DD7-46FB-A90C-A42872DBF33E}</MachineGuid></Data></DATATAG>
+UBX giveme75@hotmail.com 153
+<DATA TAG><Data><PSM>지금 또 다른 꿈을 꾼다면?</PSM><CurrentMedia></CurrentMedia><MachineGuid>{744BA175-A2D1-438E-9289-BB6114C075B0}</MachineGuid></Data></DATATAG>
+ILN 9 NLN heyjou@hotmail.com [주국] 1073741856 0
+UBX heyjou@hotmail.com 0
+ILN 9 NLN thirdtype@korea.com 회인@thirdtype.net 4160 0
+UBX thirdtype@korea.com 0
+ILN 9 NLN star834@hotmail.com [성승현]★★★★★ 2254290988 %3Cmsnobj%20Creator%3D%22star834%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%222R87770BpxTvhuiXTRwWmwA0NvE%3D%22%20Size%3D%222981%22%20Location%3D%220%22%20Friendly%3D%22SQBNAEcAUAAwADYAMgA5AAAA%22%2F%3E
+UBX star834@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{B027A31A-DCD3-4E43-9107-2E5453CB9BFB}</MachineGuid></Data></DATATAG>
+ILN 9 NLN jh0500@freechal.com '[이준호/juNo] 1985855532 %3Cmsnobj%20Creator%3D%22jh0500%40freechal.com%22%20Type%3D%223%22%20SHA1D%3D%22o3DJO%2FUKHXTA0zkAb3WpIvsNxZI%3D%22%20Size%3D%2228698%22%20Location%3D%220%22%20Friendly%3D%22MwA0AF8AAAA%3D%22%2F%3E
+UBX jh0500@freechal.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{1C31AEDF-C070-4E95-9B36-90B13FD22729}</MachineGuid></Data></DATATAG>
+ILN 9 NLN nirvanapark@hotmail.com 나옥희 2254295084 %3Cmsnobj%20Creator%3D%22nirvanapark%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%228eJbQdEIAsQAaNf3eB%2Bt8o2yZ8Q%3D%22%20Size%3D%2213343%22%20Location%3D%220%22%20Friendly%3D%22IdMh03THAAA%3D%22%2F%3E
+UBX nirvanapark@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{2DBC39AE-226A-4310-9C4E-0169BECA6F2C}</MachineGuid></Data></DATATAG>
+ILN 9 NLN hyuklub1@hotmail.com 김하나%20-▶%20[룰루랄라~%20생일까지%20몇일>0<] 2254290988 0
+UBX hyuklub1@hotmail.com 147
+<DATA TAG><Data><PSM>올 가을은.. 심란하게!</PSM><CurrentMedia></CurrentMedia><MachineGuid>{BD10A79A-DACD-407C-B3E1-FEB5BD037923}</MachineGuid></Data></DATATAG>
+ILN 9 NLN lightjhyun@hotmail.com {장광현} 2254290988 %3Cmsnobj%20Creator%3D%22lightjhyun%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%222VdOiRn8R6vgyAo1OuWk8%2FGrO9g%3D%22%20Size%3D%2227113%22%20Location%3D%220%22%20Friendly%3D%22XLgTzyAAHLyswAAA%22%2F%3E
+UBX lightjhyun@hotmail.com 133
+<DATA TAG><Data><PSM>폭풍속으로</PSM><CurrentMedia></CurrentMedia><MachineGuid>{CECF4886-61DA-4555-B15D-7A5BB69DA17F}</MachineGuid></Data></DATATAG>
+ILN 9 AWY kamuiii@hotmail.com [현희]화이팅! 2254032940 %3Cmsnobj%20Creator%3D%22kamuiii%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22vckfoTaqfJ9ijP%2F8nGUMWPy1ewY%3D%22%20Size%3D%2229205%22%20Location%3D%220%22%20Friendly%3D%22MAAwADAAMAAyADEAAAA%3D%22%2F%3E
+UBX kamuiii@hotmail.com 130
+<DATA TAG><Data><PSM>心甘情愿</PSM><CurrentMedia></CurrentMedia><MachineGuid>{CCEB8A5D-28C4-44CD-9893-ADEDAEE46DBF}</MachineGuid></Data></DATATAG>
+ILN 9 NLN pearl0215@hotmail.com {이진주} 2254290988 %3Cmsnobj%20Creator%3D%22pearl
+0215%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22Yg%2FhxoG1OrHeoVVWcSH0g%2BBDyc0%3D%22%20Size%3D%223053%22%20Location%3D%220%22%20Friendly%3D%22JMasuSAAeMcV1gAA%22%2F%3E
+0215%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22Yg%2FhxoG1OrHeoVVWcSH0g%2BBDyc0%3D%22%20Size%3D%223053%22%20Location%3D%220%22%20Friendly%3D%22JMasuSAAeMcV1gAA%22%2F%3E
+UBX pearl0215@hotmail.com 156
+<DATA TAG><Data><PSM>따뜻한 정종 OK? 조개구이도..</PSM><CurrentMedia></CurrentMedia><MachineGuid>{D33BF300-3568-46F5-832E-92FE8705A99A}</MachineGuid></Data></DATATAG>
+ILN 9 NLN happyandlife@hotmail.com 혜연 2254290988 0
+UBX happyandlife@hotmail.com 140
+<DATA TAG><Data><PSM>용기를 가져요☆</PSM><CurrentMedia></CurrentMedia><MachineGuid>{C2FB665B-1EF9-41F4-96D6-BD0BD0F35FA7}</MachineGuid></Data></DATATAG>
+ILN 9 NLN titanhero@hotmail.com [김영환]%20layered%20forest 2254290988 %3Cmsnobj%20Creator%3D%22titanhero%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%224GEtmx4tnKcb%2BJi8hGWK81NxZ5U%3D%22%20Size%3D%223425%22%20Location%3D%220%22%20Friendly%3D%22dNWlxwAA%22%2F%3E
+UBX titanhero@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{F778F268-B0C1-4B06-9345-A9A6D720A2A3}</MachineGuid></Data></DATATAG>
+ILN 9 IDL tearfully@hotmail.com [친절한%20성숙씨]%20친절한%20웹을%20향하여~!!! 2254290988 %3Cmsnobj%20Creator%3D%22tearfully%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22fhFbdcZ2BOTb84lAwbai6iSt%2BH4%3D%22%20Size%3D%222112%22%20Location%3D%220%22%20Friendly%3D%22bQBzAG4AMAAwADEAAAA%3D%22%2F%3E
+UBX tearfully@hotmail.com 149
+<DATA TAG><Data><PSM>아름다운 사람이 되자!!</PSM><CurrentMedia></CurrentMedia><MachineGuid>{18F6BE10-25B3-4A8A-AFDC-BA88C79AB070}</MachineGuid></Data></DATATAG>
+ILN 9 NLN note.spring@gmail.com 봄공책 1073791012 0
+UBX note.spring@gmail.com 0
+ILN 9 IDL oh_ag@hotmail.com [정진영]%20심플하네. 44 0
+UBX oh_ag@hotmail.com 0
+ILN 9 NLN pina314@hotmail.com [정순미] 2254295148 %3Cmsnobj%20Creator%3D%22pina314%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22Un4UZD8enJu38%2FcH1rUHpACTqns%3D%22%20Size%3D%222124%22%20Location%3D%220%22%20Friendly%3D%22eLGAt0OvAAA%3D%22%2F%3E
+UBX pina314@hotmail.com 138
+<DATA TAG><Data><PSM>오늘도 열심히!</PSM><CurrentMedia></CurrentMedia><MachineGuid>{39049B32-0DE9-4FAB-978F-4E7BD033A269}</MachineGuid></Data></DATATAG>
+ILN 9 NLN leepaa@hotmail.com [이파랑] 2254290988 %3Cmsnobj%20Creator%3D%22leepaa%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22hEGHWUR1bFrhMpl8hud1ib8OOgw%3D%22%20Size%3D%222079%22%20Location%3D%220%22%20Friendly%3D%22JMasuSAAeMcV1gAA%22%2F%3E
+UBX leepaa@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{92518F6C-F7A4-4230-9795-168BD5BF3238}</MachineGuid></Data></DATATAG>
+ILN 9 NLN ibrainrush@hotmail.com [이성훈%20:%20내선%20561]----부러우면%20지는거다-------- 2254290988 %3Cmsnobj%20Creator%3D%22ibrainrush%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22%2B%2F1DQCBYrG2kLybRUfHO4rJMd3w%3D%22%20Size%3D%222832%22%20Location%3D%220%22%20Friendly%3D%22cwBpAG0AcwBvAG4AAAA%3D%22%2F%3E
+UBX ibrainrush@hotmail.com 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{2429A30C-4E21-49D9-91E3-63AE32285A73}</MachineGuid></Data></DATATAG>
+ILN 9 NLN isjin13@hotmail.com [Jin]™ 2254290988 %3Cmsnobj%20Creator%3D%22isjin13%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22I9P0EMBOXAIy7UYtsGEpoYqMTmc%3D%22%20Size%3D%222406%22%20Location%3D%220%22%20Friendly%3D%22YQBhAAAA%22%2F%3E
+UBX isjin13@hotmail.com 142
+<DATA TAG><Data><PSM>HTTP://JISON.TISTORY.COM</PSM><CurrentMedia></CurrentMedia><MachineGuid>{C14135C9-A44A-427A-A0DE-9767B4E9F542}</MachineGuid></Data></DATATAG>
+ILN 9 NLN inerschw@hotmail.com 서창원%20<:3%20%20)~%20어딜가면%20만날%20수%20있는거니~ 2254295084 %3Cmsnobj%20Creator%3D%22inerschw%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22Ps2BSQHNFXLxMTqPVX6AgFe%2B5ok%3D%22%20Size%3D%223027%22%20Location%3D%220%22%20Friendly%3D%22MgAwADAANwAwADYAAAA%3D%22%2F%3E
+UBX inerschw@hotmail.com 168
+<DATA TAG><Data><PSM>하루를 거르면 한 달을 거르게 된다...</PSM><CurrentMedia></CurrentMedia><MachineGuid>{D2BC12E8-48AB-459B-8536-9F82639DFF9E}</MachineGuid></Data></DATATAG>
+ILN 9 NLN youths80@hotmail.com [간호선]꼽창,, 2254290988 %3Cmsnobj%20Creator%3D%22youths80%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22WliJzSCj1p0%2B9%2BBOKoKSC%2FcHKMk%3D%22%20Size%3D%2224040%22%20Location%3D%220%22%20Friendly%3D%22sMBFxSAAkMcEyHCsAAA%3D%22%2F%3E
+UBX youths80@hotmail.com 153
+<DATA TAG><Data><PSM>당신의간은 안녕하십니까?</PSM><CurrentMedia></CurrentMedia><MachineGuid>{6DF39E66-A0F0-46E1-97D9-A0EDC7DCBA23}</MachineGuid></Data></DATATAG>
+ILN 9 NLN kjkj1004@hotmail.com [갱] 1073741856 0
+UBX kjkj1004@hotmail.com 0
+ILN 9 NLN lunar198406@hotmail.com [문주]%20냅둬라!%20죽여라!%20버려라!%20가져라! 2254290988 %3Cmsnobj%20Creator%3D%22lunar198406%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22zIydrI291adejhPx8D408fZbi4U%3D%22%20Size%3D%223135%22%20Location%3D%220%22%20Friendly%3D%22jMHAyS3BAAA%3D%22%2F%3E
+UBX lunar198406@hotmail.com 159
+<DATA TAG><Data><PSM>타카소리에 내마음이 움직인다</PSM><CurrentMedia></CurrentMedia><MachineGuid>{9C06B687-2AE3-4AB3-8652-DE03782BCCB4}</MachineGuid></Data></DATATAG>
+ILN 9 NLN shinnbi@hanmail.net 《현용》 2254290988 0
+UBX shinnbi@hanmail.net 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{AEB2A3F0-6D36-4AED-A258-DA9B8B41F7EA}</MachineGuid></Data></DATATAG>
+ILN 9 NLN maaelva@hotmail.com 민영/Maan(≥㉨≤)ㆀ%202004년으로%20돌아가고파~ 2254290988 %3Cmsnobj%20Creator%3D%22maaelva%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22T6VjxDczV3FU8O%2B7X7gEXziMQc4%3D%22%20Size%3D%222954%22%20Location%3D%220%22%20Friendly%3D%22RABTAEMARgAyADMANgA3AF8AMAAoADUAMwA1ADIAKQAAAA%3D%3D%22%2F%3E
+UBX maaelva@hotmail.com 127
+<DATA TAG><Data><PSM>고민중</PSM><CurrentMedia></CurrentMedia><MachineGuid>{7802086C-96BB-4AAD-8C3F-5E08F258D38B}</MachineGuid></Data></DATATAG>
+ILN 9 NLN rath@xrath.com rath 1073741856 0
+UBX rath@xrath.com 96
+<DATA TAG><Data><PSM/><CurrentMedia>WMP\0Music\00\0{0} - {1}\0\0\0\0\0</CurrentMedia><MachineGuid/></Data></DATATAG>
+
+
+ILN 9 NLN kwak@gooddesigner.net [곽정민] 2254290988 %3Cmsnobj%20Creator%3D%22kwak%40gooddesigner.net%22%20Type%3D%223%22%20SHA1D%3D%22iMu6QwjGaz19Uc3Iub13%2FGgtfY4%3D%22%20Size%3D%2220628%22%20Location%3D%220%22%20Friendly%3D%22wK3sxbTGIAAVrETFwMkAAA%3D%3D%22%2F%3E
+
+
+UBX kwak@gooddesigner.net 118
+<DATA TAG><Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{8604498F-F8BD-40E7-AA32-D4F6E03E039F}</MachineGuid></Data></DATATAG>
+
+
